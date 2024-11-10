@@ -16,7 +16,7 @@ namespace SendEmailWithGoogleSMTP
             MailMessage message = new MailMessage();
             message.From = new MailAddress(fromMail);
             message.Subject = "Test Mail";
-            message.To.Add(new MailAddress("samplerecievemail@gmail.com")); //mail to recieve
+            message.To.Add(new MailAddress("samplerecievemail@gmail.com")); //mail of receiver
             message.Body = "<html><body>" +
                            "We are excited to announce a new job opportunity.If you are looking for a challenging role, consider applying for the following position." +
                            "</body></html>";
